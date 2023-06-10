@@ -1,10 +1,4 @@
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
-
-
-
 *{
     margin:0;
     padding:0;
@@ -12,25 +6,17 @@
     border:none;
     font-weight: normal;
 }
-
-
 html,body{
     height: 100%;
     width: 100%;
 }
-
-
 body{
     background-color: #F2EAE2;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
-
 /*START-> product Container*/
-
 .productContainer{
 
     width: 600px;
@@ -42,12 +28,10 @@ body{
     box-shadow: #0000001a 2px 5px 10px;
 
 }
-
 .productContainer:hover{
     box-shadow: #00000056 15px 50px 10px;
     transform: scale(1.008,1.008);
 }
-
 /*END-> product Container*/
 
 
@@ -72,13 +56,10 @@ body{
     border-radius: 0px 10px 10px 0;
 }
 
-
 .contentFormater{
-    /*Increase the width to give more or less margin to the whole content*/
     height: 100%;
     padding:32px;
 }
-
 .productCategory{
     font-family: 'Montserrat';
     font-style: normal;
@@ -89,7 +70,6 @@ body{
     margin-bottom: 20px;
     
 }
-
 .productTitle{
     font-family: 'Fraunces';
     font-style: normal;
@@ -120,7 +100,6 @@ body{
  
 
 }
-
 .productPrice{
 font-family: 'Montserrat';
 font-style: normal;
@@ -131,7 +110,6 @@ display:inline-block;
 padding: 11px 19px;
 color: #6C7289;
 }
-
 
 .addCartButton{
 background: #3D8168;
@@ -170,13 +148,8 @@ transition:background-color .2s ease-in-out;
 /*END-> product INFO SECTION*/
 
 
-
-
-/*------------------------- MOBILE VIEW --------------------------*/
-
-
+/*------------------------- [START] MOBILE VIEW --------------------------*/
 @media only screen and (max-width:600px){
-
 
     .productContainer{
         width: 343px;
@@ -186,9 +159,7 @@ transition:background-color .2s ease-in-out;
         opacity: 1;
     }
 
-
-
-    /*START-> product Image Container*/
+ /*START-> product Image Container*/
 
 .productImgContainer{
     background-image: url("images/image-product-mobile.jpg");
@@ -212,15 +183,12 @@ transition:background-color .2s ease-in-out;
     border-radius: 0 0 10px 10px;
 }
 
-
 /*START-> product INFO SECTION */
-
 
 .contentFormater{
     width:100%;
     padding:24px
 }
-
 
 .productCategory{
    
@@ -251,6 +219,6 @@ transition:background-color .2s ease-in-out;
   
 }
 
-
 }
 
+/*------------------------- [END] MOBILE VIEW --------------------------*/
